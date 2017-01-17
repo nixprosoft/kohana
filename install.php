@@ -213,10 +213,10 @@ else
 		</tr>
 		<tr>
 			<th>MySQL Enabled</th>
-			<?php if (function_exists('mysql_connect')): ?>
+			<?php if (function_exists('mysqli_connect')): ?>
 				<td class="pass">Pass</td>
 			<?php else: ?>
-				<td class="fail">Kohana can use the <a href="http://php.net/mysql">MySQL</a> extension to support MySQL databases.</td>
+				<td class="fail">Kohana can use the <a href="http://php.net/mysqli">MySQLi</a> extension to support MySQL databases.</td>
 			<?php endif ?>
 		</tr>
 		<tr>

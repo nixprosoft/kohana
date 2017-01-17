@@ -1,6 +1,8 @@
 {
 	"require": {
-		"phpunit/phpunit": "3.7.24 - 4",
-		"phing/phing": "dev-master"
+		"phpunit/phpunit": "3.7.24 - 4"
+	},
+	"require-dev": {
+		"sstalle/php7cc": "^1.1"
 	}
 }
